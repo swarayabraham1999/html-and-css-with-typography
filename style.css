@@ -1,0 +1,115 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: burlywood;
+    background-image: radial-gradient(circle, burlywood, black);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Header Styling */
+header {
+    background-color: burlywood;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* Heading (H1) Styling */
+h1 {
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    background-color: burlywood;
+    padding: 15px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-image: linear-gradient(90deg, #000000 0%, #ffffff 100%);
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: burlywood;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Image Styling */
+img {
+    border-radius: 200px;
+    border: #ffffff 5px solid;
+    margin: 20px auto;
+    padding: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: black;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    background-image: linear-gradient(90deg, #000000 0%, #ffffff 100%);
+    border: 5px solid black;
+}
+
+/* Section Styling */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    max-width: 800px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+}
+
+/* Poem Titles (H2) Styling */
+section h2 {
+    color: burlywood;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+section p {
+    margin: 10px 0;
+    font-size: medium;
+    color: white;
+}
